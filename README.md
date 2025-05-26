@@ -1,7 +1,5 @@
 ## Code-Challenge-Articles---without-SQLAlchemy
 
-## Code-Challenge-Articles---without-SQLAlchemy
-
 # Articles Management System
 
 A simple Python project that manages authors, magazines, and articles using a SQLite database and raw SQL (no ORM).
