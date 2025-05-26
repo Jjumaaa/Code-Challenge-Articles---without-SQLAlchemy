@@ -6,17 +6,17 @@ def seed_data():
     conn = get_connection()
     cursor = conn.cursor()
 
-    # Insert Authors
+    # Ya kuinsert Authors
     authors = ['Alice Walker', 'John Steinbeck', 'Toni Morrison']
     for name in authors:
         cursor.execute("INSERT INTO authors (name) VALUES (?)", (name,))
 
-    # Insert Magazines
+    # Ya kuinsert Magazines
     magazines = [('Time', 'News'), ('Vogue', 'Fashion'), ('Scientific American', 'Science')]
     for name, category in magazines:
         cursor.execute("INSERT INTO magazines (name, category) VALUES (?, ?)", (name, category))
 
-    # Insert Articles
+    # Ya kuinsert Articles
     articles = [
         ('The Color Purple Review', 1, 1),
         ('East of Eden Analysis', 2, 2),

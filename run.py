@@ -5,7 +5,7 @@ from lib.models.article import Article
 import ipdb
 
 def main():
-    # Create author with bio
+    # Ya Kucreate author with bio
     author1 = Author(name="John Doe", bio="A passionate writer")
     author1.save()
 
@@ -20,7 +20,7 @@ def main():
     )
     article1.save()
 
-    # Fetch and print
+    # Ya kufetch na Kuprint
     found_author = Author.find_by_id(author1.id)
     found_magazine = Magazine.find_by_id(magazine1.id)
     found_article = Article.find_by_id(article1.id)

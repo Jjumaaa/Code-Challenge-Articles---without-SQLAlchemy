@@ -29,9 +29,6 @@ project/
 ├── run.py # Script to test code
 └── README.md # Project guide
 
-yaml
-Copy
-Edit
 
 ---
 
